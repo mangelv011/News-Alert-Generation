@@ -1,7 +1,7 @@
 # Automatic Alert Generation with NER and Sentiment Analysis
 
 ## Project Overview
-This project implements an end-to-end system for automatic alert generation from news articles and social media posts. The system leverages Named Entity Recognition (NER) and Sentiment Analysis (SA) techniques to produce contextual alerts relevant to reputation monitoring, economic updates, and geopolitical risks, following a three-stage pipeline architecture as described in our paper.
+This project implements an end-to-end system for automatic alert generation from news articles and social media posts. The system leverages Named Entity Recognition (NER) and Sentiment Analysis (SA) techniques to produce contextual alerts relevant to reputation monitoring, economic updates, and geopolitical risks. For alert generation, it uses a fine-tuned sequence-to-sequence (T5) model, following a three-stage pipeline architecture as described in our paper.
 
 ## How It Works
 1. **Named Entity Recognition (NER):** Identifies key entities such as people, organizations, monetary values, and locations using a hybrid neural architecture that combines contextual embeddings from a transformer model with linguistic features and character-level representations in a BiLSTM-CRF framework.
